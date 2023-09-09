@@ -60,7 +60,7 @@ void calculate4(){
 
 
 int main() {
-    std::string greeting ="Jenny";
+    std::string greeting ="Jenny Ke";
     std::cout << greeting;
 
 
