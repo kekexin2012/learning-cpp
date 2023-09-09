@@ -2,7 +2,18 @@
 
 using namespace std;
 
-int main() {
+void calculate1()
+{
+    int sum = 0;
+    for (int i = 92; i >= 2; i = i - 2) {
+        sum = sum + i;
+    }
+    cout << sum;
+    cout << "\n";
+}
+
+void calculate2()
+{
     int sum = 0;
     for (int i = 1; i <= 2012; i++) {
         sum = sum + i;
@@ -10,14 +21,20 @@ int main() {
     cout << sum;
     cout << "\n";
 
-    sum = 0;
+}
+
+void calculate3()
+{
+    int sum = 0;
     for (int i = 2; i <= 2588; i++) {
         sum = sum + i;
     }
     cout << sum;
     cout << "\n";
+}
 
-    sum = 0;
+void calculate4(){
+    int sum = 0;
     for (int i = 5; i <= 6002; i = i + 3) {
         sum = sum + i;
     }
@@ -39,11 +56,13 @@ int main() {
     cout << sum;
     cout << "\n";
 
-    sum = 0;
-    for (int i = 92; i >= 2; i = i - 2) {
-        sum = sum + i;
-    }
-    cout << sum;
-    cout << "\n";
+}
+
+
+int main() {
+    std::string greeting ="Jenny";
+    std::cout << greeting;
+
+
     return 0;
 }
