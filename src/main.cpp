@@ -1,5 +1,7 @@
 #include <iostream>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wc++23-extensions"
 using namespace std;
 
 void calculate1()
@@ -62,7 +64,41 @@ void calculate4(){
 int main() {
     std::string greeting ="Jenny Ke";
     std::cout << greeting;
+    cout << "\n";
+
+    int day = 9;
+    switch (day) {
+        case 1:
+            cout << "Monday";
+            break;
+        case 2:
+            cout << "Tuesday";
+            break;
+        case 3:
+            cout << "Wednesday";
+            break;
+        case 4:
+            cout << "Thursday";
+            break;
+        case 5:
+            cout << "Friday";
+            break;
+        case 6:
+            cout << "Saturday";
+            break;
+        case 7:
+            cout << "Sunday";
+            break;
+
+        default:
+            cout << "default";
+            break;
+    }
+
+
 
 
     return 0;
 }
+
+#pragma clang diagnostic pop
