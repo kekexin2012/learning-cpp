@@ -35,7 +35,7 @@ void calculate3()
     cout << "\n";
 }
 
-void calculate4(){
+void calculate4() {
     int sum = 0;
     for (int i = 5; i <= 6002; i = i + 3) {
         sum = sum + i;
@@ -59,46 +59,14 @@ void calculate4(){
     cout << "\n";
 
 }
-
-
-int main() {
-    std::string greeting ="Jenny Ke";
-    std::cout << greeting;
-    cout << "\n";
-
-    int day = 9;
-    switch (day) {
-        case 1:
-            cout << "Monday";
-            break;
-        case 2:
-            cout << "Tuesday";
-            break;
-        case 3:
-            cout << "Wednesday";
-            break;
-        case 4:
-            cout << "Thursday";
-            break;
-        case 5:
-            cout << "Friday";
-            break;
-        case 6:
-            cout << "Saturday";
-            break;
-        case 7:
-            cout << "Sunday";
-            break;
-
-        default:
-            cout << "default";
-            break;
+    int main(){
+    int i = 0;
+    while (i < 5) {
+        cout << i <<"\n";
+        i++;
     }
 
-
-
-
     return 0;
-}
+ }
 
 #pragma clang diagnostic pop
