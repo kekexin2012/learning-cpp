@@ -10,8 +10,8 @@ void calculate1()
     for (int i = 92; i >= 2; i = i - 2) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 }
 
 void calculate2()
@@ -20,8 +20,8 @@ void calculate2()
     for (int i = 1; i <= 2012; i++) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 
 }
 
@@ -31,8 +31,8 @@ void calculate3()
     for (int i = 2; i <= 2588; i++) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 }
 
 void calculate4() {
@@ -40,33 +40,47 @@ void calculate4() {
     for (int i = 5; i <= 6002; i = i + 3) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 
     int value_5000 = 10 + (5000 - 1) * 5;
     sum = 0;
     for (int i = 10; i <= value_5000; i = i + 5) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 
     sum = 0;
     for (int i = 11; i <= 97; i = i + 2) {
         sum = sum + i;
     }
-    cout << sum;
-    cout << "\n";
+        cout << sum;
+        cout << "\n";
 
 }
     int main(){
     int i = 0;
     while (i < 5) {
-        cout << i <<"\n";
+        cout << i << "\n";
         i++;
     }
+    string cars[5] = {"Jenny", "Amy", "Anna", "Tom","Lingling"};
+        cout << cars [3] << "\n" ;
+
+    int j = 0;
+    while (i<10){
+        cout << i <<"\n";
+        i++;
+        if(i==4){
+            break;
+        }
+
+    }
+
 
     return 0;
  }
+
 
 #pragma clang diagnostic pop
