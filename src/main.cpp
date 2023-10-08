@@ -75,8 +75,10 @@ void calculate4() {
         if(i==4){
             break;
         }
-
+    string Myfriends[5] = {"Amy","Apple","Anna","Sally","Tomas"};
+        cout << Myfriends [2] << "\n" ;
     }
+
 
 
     return 0;
