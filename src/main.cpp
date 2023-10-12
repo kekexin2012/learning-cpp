@@ -59,30 +59,22 @@ void calculate4() {
         cout << "\n";
 
 }
-    int main(){
-    int i = 0;
-    while (i < 5) {
-        cout << i << "\n";
-        i++;
-    }
-    string cars[5] = {"Jenny", "Amy", "Anna", "Tom","Lingling"};
-        cout << cars [3] << "\n" ;
 
-    int j = 0;
-    while (i<10){
-        cout << i <<"\n";
-        i++;
-        if(i==4){
-            break;
-        }
-    string Myfriends[5] = {"Amy","Apple","Anna","Sally","Tomas"};
-        cout << Myfriends [2] << "\n" ;
-    }
+int main() {
+
+    struct {
+        int myNum;
+        string myString;
+    } myStructure;
 
 
+    myStructure.myNum = 11;
+    myStructure.myString = "I'm Jenny";
 
+    cout << myStructure.myNum << "\n";
+    cout << myStructure.myString << "\n";
     return 0;
- }
+}
 
 
 #pragma clang diagnostic pop
